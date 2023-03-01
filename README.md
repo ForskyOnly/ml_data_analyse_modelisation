@@ -27,7 +27,10 @@ Le dossier comporte plusieurs fichiers:
  - "data_modelisation" : Où nous avons entrainé et tester plusieurs modéles tels que KNeighborsRegressor ( Le modéle ayant obtenu le plus gros score et qui sera utilisé comme model pour notre application Django), LinearRegression, Lasso, Ridge afin de choisir le modéle le plus adéquat pour prédir le prix.
 
 
-
+ Trois DataFrame : 
+ - "kc_house_data.csv" : le DataFrame inital avec les données brut.
+ - "data_hous.csv" : le DataFrame nettoyé.
+ - "test_data_hous.csv" : le DataFrale nettoyé, utilisé pour les test et l'entrainement du modéle
 
 ### Pré-requis et installation:
 
